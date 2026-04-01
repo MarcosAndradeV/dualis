@@ -1,0 +1,8 @@
+[package]
+name = "repl"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+lex-just-parse = { workspace = true }
+rustyline = { workspace = true }

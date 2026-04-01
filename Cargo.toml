@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "repl"
+]
+
+resolver = "2"
+
+[workspace.dependencies]
+lex-just-parse = { git = "https://github.com/MarcosAndradeV/lex-just-parse/", version = "0.1.1" }
+rustyline = "18.0.0"
