@@ -1,7 +1,7 @@
 [workspace]
 members = [
     "repl"
-]
+, "types", "vm"]
 
 resolver = "2"
 
